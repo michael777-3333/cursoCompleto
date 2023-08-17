@@ -1,0 +1,131 @@
+
+Micha@Michael MINGW64 /c/Users
+$ cd desktop
+bash: cd: desktop: No such file or directory
+
+Micha@Michael MINGW64 /c/Users
+$ cd ..
+
+Micha@Michael MINGW64 /c
+$ cd..
+bash: cd..: command not found
+
+Micha@Michael MINGW64 /c
+$ cd ..
+
+Micha@Michael MINGW64 /
+$ cd ..
+
+Micha@Michael MINGW64 /
+$ cd ..
+
+Micha@Michael MINGW64 /
+$ cd desktop
+bash: cd: desktop: No such file or directory
+
+Micha@Michael MINGW64 /
+$ cd c
+
+Micha@Michael MINGW64 /c
+$ cd Users/
+
+Micha@Michael MINGW64 /c/Users
+$ cd Micha/
+
+Micha@Michael MINGW64 ~
+$ cd OneDrive/
+
+Micha@Michael MINGW64 ~/OneDrive
+$ cd Desktop/
+
+Micha@Michael MINGW64 ~/OneDrive/Desktop
+$ cd cursoCompleto/
+
+Micha@Michael MINGW64 ~/OneDrive/Desktop/cursoCompleto
+$ mkdir
+mkdir: missing operand
+Try 'mkdir --help' for more information.
+
+Micha@Michael MINGW64 ~/OneDrive/Desktop/cursoCompleto
+$ mkdir githab
+
+Micha@Michael MINGW64 ~/OneDrive/Desktop/cursoCompleto
+$ cd git
+git/    githab/
+
+Micha@Michael MINGW64 ~/OneDrive/Desktop/cursoCompleto
+$ cd git
+git/    githab/
+
+Micha@Michael MINGW64 ~/OneDrive/Desktop/cursoCompleto
+$ cd git
+git/    githab/
+
+Micha@Michael MINGW64 ~/OneDrive/Desktop/cursoCompleto
+$ cd githab
+
+Micha@Michael MINGW64 ~/OneDrive/Desktop/cursoCompleto/githab
+$ touch practicing.txt
+
+Micha@Michael MINGW64 ~/OneDrive/Desktop/cursoCompleto/githab
+$ open practicing.txt
+bash: open: command not found
+
+Micha@Michael MINGW64 ~/OneDrive/Desktop/cursoCompleto/githab
+$ open -a /OneDrive/Desktop/cursoCompleto/githab/practicing.txt
+bash: open: command not found
+
+Micha@Michael MINGW64 ~/OneDrive/Desktop/cursoCompleto/githab
+$ open -a /applications/Visual\ Studio\ code.app practicing.txt
+bash: open: command not found
+
+Micha@Michael MINGW64 ~/OneDrive/Desktop/cursoCompleto/githab
+$ ls
+practicing.txt
+
+Micha@Michael MINGW64 ~/OneDrive/Desktop/cursoCompleto/githab
+$ code practicing.txt 
+
+Micha@Michael MINGW64 ~/OneDrive/Desktop/cursoCompleto/githab
+$ git init
+Initialized empty Git repository in C:/Users/Micha/OneDrive/Desktop/cursoCompleto/githab/.git/
+
+Micha@Michael MINGW64 ~/OneDrive/Desktop/cursoCompleto/githab (master)
+$ ls
+practicing.txt
+
+Micha@Michael MINGW64 ~/OneDrive/Desktop/cursoCompleto/githab (master)
+$ ls -a
+./  ../  .git/  practicing.txt
+
+Micha@Michael MINGW64 ~/OneDrive/Desktop/cursoCompleto/githab (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        practicing.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Micha@Michael MINGW64 ~/OneDrive/Desktop/cursoCompleto/githab (master)
+$ git add practicing.txt 
+
+Micha@Michael MINGW64 ~/OneDrive/Desktop/cursoCompleto/githab (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   practicing.txt
+
+
+Micha@Michael MINGW64 ~/OneDrive/Desktop/cursoCompleto/githab (master)
+$ git commit -m "mi primer commit"
+[master (root-commit) f7c738d] mi primer commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 practicing.txt
